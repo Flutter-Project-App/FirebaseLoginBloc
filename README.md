@@ -1,4 +1,5 @@
-# flutter_application
+# Firebase Login
+Practice firebase login
 
 ## Structure
 - assets
