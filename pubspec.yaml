@@ -8,6 +8,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  authentication_repository:
+    path: packages/authentication_repository
   # StateManagement
   flutter_bloc:
   tuple:
@@ -20,14 +22,28 @@ dependencies:
   flutter_svg:
   # Local Persist
   shared_preferences:
+  bloc:
+  equatable:
+  flow_builder:
+  font_awesome_flutter:
+  form_inputs:
+    path: packages/form_inputs
+  formz:
+  google_fonts:
+  meta:
+  very_good_analysis:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons:
   build_runner:
   json_serializable:
   freezed:
+  bloc_test:
+  mocktail:
+
 flutter:
   uses-material-design: true
   assets:
-    - assets/icons/
+    - assets/
