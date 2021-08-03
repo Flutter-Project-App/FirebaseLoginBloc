@@ -14,6 +14,11 @@ class _ApplicationState extends State<Application> {
     return MaterialApp(
       theme: light(context),
       darkTheme: dark(context),
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("Hello"),
+        ),
+      ),
     );
   }
 }
