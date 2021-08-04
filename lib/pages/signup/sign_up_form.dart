@@ -95,8 +95,8 @@ class _ConfirmPasswordInput extends StatelessWidget {
         builder: (context, state) {
           return TextField(
             key: const Key('signUpForm_confirmedPasswordInput_textField'),
-            onChanged: (password) =>
-                context.read<SignUpCubit>().passwordChanged(password),
+            onChanged: (confirmPassword) =>
+                context.read<SignUpCubit>().confirmedPasswordChanged(confirmPassword),
             obscureText: true,
             decoration: InputDecoration(
                 labelText: 'confirm password',
